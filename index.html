@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+        <title>Universo Rick e Morty</title>
+
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+  </head>
+  
+  <body onload="seeMore()">
+    <!--- Seção de boas vindas e descrição sobre a página --->
+      <div id="container">
+          <div class="welcome">
+            <p>Seja bem-vindo (a) ao universo de Rick e Morty!</p>
+          </div>
+
+      <div class="description">
+        <p>
+          Aqui você pode conhecer todos os personagens desta série com apenas um
+          clique. Basta clicar em "Ver Mais" sempre que quiser ver outros
+          personagens e descobrir seus nomes.
+        </p>
+      </div>
+
+      <!--- Seção das imagens. Existem imagens pré-definidas para que a página não fique vazia até o programa randomizar no carregamento --->
+      <div id="imgs">
+          <div>
+            <img
+              id="img1"
+              class="img"
+              src="https://www.ociostock.com/productos/imagenes/img_205749_e1a699da455d93a1256592383518a8ef_1.jpg"
+              alt="Personagem 1"
+            />
+
+          <div id="imgDescription1" class="imgDescription">Personagem</div>
+        </div>
+
+        <div>
+            <img
+              id="img2"
+              class="img"
+              src="https://www.ociostock.com/productos/imagenes/img_205749_e1a699da455d93a1256592383518a8ef_1.jpg"
+              alt="Personagem 2"
+            />
+
+          <div id="imgDescription2" class="imgDescription">Personagem</div>
+        </div>
+
+        <div>
+            <img
+              id="img3"
+              class="img"
+              src="https://www.ociostock.com/productos/imagenes/img_205749_e1a699da455d93a1256592383518a8ef_1.jpg"
+              alt="Personagem 3"
+            />
+          <div id="imgDescription3" class="imgDescription">Personagem</div>
+        </div>
+
+        <div>
+          <img
+              id="img4"
+              class="img"
+              src="https://www.ociostock.com/productos/imagenes/img_205749_e1a699da455d93a1256592383518a8ef_1.jpg"
+              alt="Personagem 4"
+          />
+          <div id="imgDescription4" class="imgDescription">Personagem</div>
+        </div>
+      </div>
+
+      <!--- Botão para mostrar mais imagens --->
+
+      <div style="text-align: center">
+        <button id="btnSeeMore" onclick="seeMore()">Ver Mais</button>
+      </div>
+    </div>
+  </body>
+</html>

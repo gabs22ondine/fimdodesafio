@@ -1,0 +1,75 @@
+body {
+    background-color: #f0eeee;
+    background-image: linear-gradient(
+        180deg,
+        #1f88ff 5%, 
+        #8fe3fd 20%, 
+        #ffffff 40%, 
+        #ffacac 60%, 
+        #aa00cc 70%,
+        #1f88ff 95% 
+    );
+}
+
+#container {
+    width: 100%;
+    text-align: center;
+    padding: 1px;
+    transition: 0.7;
+}
+
+.welcome {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    letter-spacing: -0.9;
+}
+
+.description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+/*Seção de div criada para agrupar as quatro imagens e centralizá-las na página */
+#imgs {
+    margin-top: 50px;
+    width: 86%;
+    margin-right: 7%;
+    margin-left: 7%;
+    display: flex;
+    justify-content: space-between
+}
+
+/* Especificações do tamanho de cada uma das imagens */
+.img {
+    width: 80%;
+    height: 70%;
+    box-shadow: 0 2px 26px 0 rgba(27, 27, 27, 0.37);
+    border-radius: 15px;
+    border: 10px solid rgba(255, 255, 255, 0.12);
+    transition: 0.9s;
+}
+
+
+.imgDescription {
+    text-align: center;
+}
+
+/*Seção para a estilização do botão que troca as imagens*/
+#btnSeeMore {
+    margin-top: 40px !important;
+    border-radius: 1px;
+    background-color: rgb(39, 39, 39);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 15px 40px 0 rgba(0, 0, 0, 0.37);
+    color: white;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    letter-spacing: -0.6px;
+    line-height: 15px;
+    text-transform: uppercase;
+    margin: 15px 0 0;
+    opacity: 80%;
+    padding: 9px 20px;
+}
